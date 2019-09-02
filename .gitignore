@@ -11,6 +11,9 @@
 # production
 /build
 
+# deploy
+/.firebase
+
 # misc
 .idea
 .vscode
