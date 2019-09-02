@@ -1,0 +1,53 @@
+.container {}
+
+.header {
+	display: flex;
+}
+
+.title {
+	min-width: 0;
+	font-size: 2rem;
+	display: flex;
+	flex-grow: 1;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.edit {
+	display: flex;
+	align-items: center;
+}
+
+.editButton {
+	display: flex;
+	align-self: stretch;
+}
+
+.editIcon {
+	padding: 0 1rem;
+	cursor: pointer;
+	pointer-events: none;
+}
+
+.actionList {
+	display: flex;
+	align-items: center;
+	margin-right: -1rem;
+}
+
+.action {
+	display: flex;
+	align-self: stretch;
+}
+
+.actionIcon {
+	padding: 0 1rem;
+	cursor: pointer;
+	pointer-events: none;
+}
+
+.list {
+	padding-top: 0.5rem;
+	margin-top: 0.5rem;
+	border-top: 1px solid #ccc;
+}

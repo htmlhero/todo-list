@@ -1,0 +1,13 @@
+.container {
+	appearance: none;
+	background: none;
+	font: inherit;
+	color: inherit;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+.container:hover {
+	opacity: 0.8;
+}

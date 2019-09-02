@@ -1,0 +1,10 @@
+.container {
+	width: 100%;
+	min-height: 1.15em;
+	word-wrap: break-word;
+	cursor: pointer;
+}
+
+.placeholder {
+	color: #777;
+}

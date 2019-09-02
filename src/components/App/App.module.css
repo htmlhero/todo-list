@@ -1,0 +1,13 @@
+.container {
+	width: 100%;
+	min-width: 20rem;
+	min-height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.center {
+	width: 60rem;
+	box-sizing: border-box;
+	padding: 1rem;
+}

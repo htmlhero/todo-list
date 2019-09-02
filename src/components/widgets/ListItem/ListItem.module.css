@@ -1,0 +1,62 @@
+.container {
+	display: flex;
+	align-items: stretch;
+	margin: 0 -1rem;
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: transparent;
+}
+.container:hover {
+	background-color: #f8f9fa;
+	border-color: #ebebeb;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+}
+
+.checked {
+	font-size: 0;
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.checkedInput {
+	cursor: pointer;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	position: relative;
+	padding: 0.5rem 0;
+}
+
+.right {
+	display: flex;
+	align-items: center;
+}
+
+.delete {
+	font-size: 0;
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.deleteIcon {
+	pointer-events: none;
+}
+
+.containerChecked {}
+	.containerChecked .center {
+		text-decoration: line-through;
+	}
+
+@media (min-width: 60rem) {
+	.container {
+		border-width: 1px;
+		border-radius: 0.25rem;
+	}
+}
